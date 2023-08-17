@@ -1,0 +1,94 @@
+*{ /* Selecciono todos los estilos por defecto de la pagina */
+    margin: 0px;;   /* quito los margenes */
+    padding: 0px;   /* margen interior dentro de una caja */ 
+}
+
+body{
+    background: rgb(66, 86, 176); /* Color del Fondo */ 
+    font-family: Arial, Helvetica, sans-serif; /* Fuente de la pagina */ 
+}
+
+header{
+    background: darkslategray;
+    height: 100px;
+    width: 100%;
+    margin:0px;
+    text-align: center;
+    line-height: 100px; /* lo deja alineado a la mitad horizontalmente */ 
+    color: beige;
+    border-bottom: 1px solid black;
+}
+
+.boton{
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#container{ /* Referencia al Contenedor */ 
+    /*width: 70%;*/
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.articulo{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.articulo h2{
+    font-size: 25px;
+}
+
+.articulo:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+nav{
+    background:lightblue ;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+} 
+
+.clearfix{
+    clear:both;
+}
+
+#contenido{
+    float:left;
+    width: calc(80% - 40px);
+    min-height: 500px;
+    background: rgb(110, 145, 110);
+    padding: 20px;  /* Margesnes interiores del cuadrado  */ 
+}
+
+aside{
+    float:left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background: rgb(64, 112, 98);
+    padding: 10px;  /* Margesnes interiores del cuadrado  */ 
+    padding-top: 20px;
+
+}
+
+footer{
+    background: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}

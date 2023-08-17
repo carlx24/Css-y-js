@@ -1,0 +1,50 @@
+.caja{
+    /*width: 100px;  
+    height: 50px;    */
+    border: 1px solid black;
+    background: dimgray;
+    /* margin: 15px; */
+    text-align: center;
+    line-height: 50px;    
+}
+
+.texto{
+    /*width: 100px;  
+    height: 50px;    */    
+    background: dimgray;
+    /* margin: 15px; */
+    text-align: center;
+    line-height: 50px;    
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: stretch;
+    width: 80%;
+    margin: 0 auto;
+    background-color: slateblue ;
+    padding: 20px;
+    border: 1px solid black;    
+}
+
+.c1{
+    
+    background-color: lightblue;
+}
+
+.c2{
+    
+    background-color: lightyellow;
+}
+
+.c3{
+   
+    background-color: lightsalmon;
+}
+
+.c9{
+    
+    background-color: seagreen;
+}
